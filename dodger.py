@@ -126,11 +126,12 @@ while True:
                     if event.key == K_DOWN:
                         moveDown = False
 
+
             #if event.type == MOUSEMOTION:
                 # If the mouse moves, move the player where to the cursor.
                 # playerRect.centerx = event.pos[0]
                 # playerRect.centery = event.pos[1]
-                
+
         # Add new baddies at the top of the screen, if needed.
         if not reverseCheat and not slowCheat:
             baddieAddCounter += 1
